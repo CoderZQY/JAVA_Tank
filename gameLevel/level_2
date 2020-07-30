@@ -1,0 +1,28 @@
+#第二关的关卡信息-->不要加空格
+#敌人数量
+enemyCount=2
+#敌人坦克类型，多个类型用逗号分隔
+enemyType=0,1,2
+#游戏难度（>=1）
+gameLevel=2
+#地图生成的方式-->通过哪个方法生成
+method=addCol
+#该方法调用多少次
+invokeTime=9
+#方法调用的参数
+# int type,int startX,int startY,int wallnum,int interval_dist
+# TYPE_NORMAL = 0;
+# TYPE_COVER = 3;
+# TYPE_HARD = 4;
+# TYPE_WATER = 5;
+# 0代表边界、地图左边缘的点, 大于0都是地图元素块的宽度的倍数
+parameter1=0,0,0,10,0
+parameter2=3,2,0,5,2
+parameter3=4,4,0,5,2
+parameter4=5,6,0,5,2
+parameter5=0,7,0,6,1
+parameter6=5,8,0,5,2
+parameter7=4,10,0,5,2
+parameter8=3,12,0,5,2
+parameter9=0,14,0,10,0
+
